@@ -50,6 +50,9 @@ android {
 }
 
 dependencies {
+    val nav_version = "2.6.0"
+
+    implementation("androidx.navigation:navigation-compose:$nav_version")
 
     implementation("io.coil-kt:coil-compose:2.4.0")
     implementation("androidx.core:core-ktx:1.10.1")
